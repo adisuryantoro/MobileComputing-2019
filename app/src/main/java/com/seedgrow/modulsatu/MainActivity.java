@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
         Log.d(TAG, "Tes onCreate");
     }
 
+
     @Override
     protected void onStart() {
         super.onStart();
