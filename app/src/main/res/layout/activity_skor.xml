@@ -129,7 +129,6 @@
         android:text="Reset Perhitungan"
         app:layout_constraintBottom_toTopOf="@id/tv_Skor_Tim_B"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:onClick="reset"/>
+        app:layout_constraintStart_toStartOf="parent"/>
 
 </android.support.constraint.ConstraintLayout>
