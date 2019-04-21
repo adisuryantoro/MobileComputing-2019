@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SkorActivity">
+
+    <Button
+        android:id="@+id/btn_Plus_Satu_A"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Tambah"
+        android:text="Satu Point"
+        app:layout_constraintEnd_toStartOf="@id/btn_Plus_Dua_A"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_Plus_Dua_A"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Tambah"
+        android:text="Dua Poin"
+        app:layout_constraintEnd_toStartOf="@id/btn_Plus_Tiga_A"
+        app:layout_constraintStart_toEndOf="@id/btn_Plus_Satu_A"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_Plus_Tiga_A"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Tambah"
+        android:text="Tiga Poin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/btn_Plus_Dua_A"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_Tim_A"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Nama Tim A"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_Plus_Dua_A" />
+
+    <TextView
+        android:id="@+id/tv_Skor_Tim_A"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="0"
+        android:textSize="80sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_Tim_A" />
+
+    <Button
+        android:id="@+id/btn_Reset_A"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset Perhitungan"
+        android:onClick="reset"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_Skor_Tim_A" />
+
+
+    <Button
+        android:id="@+id/btn_Plus_Satu_B"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Tambah"
+        android:text="Satu Point"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/btn_Plus_Dua_B"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_Plus_Dua_B"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Tambah"
+        android:text="Dua Poin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/btn_Plus_Tiga_B"
+        app:layout_constraintStart_toEndOf="@id/btn_Plus_Satu_B" />
+
+    <Button
+        android:id="@+id/btn_Plus_Tiga_B"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Tambah"
+        android:text="Tiga Poin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/btn_Plus_Dua_A" />
+
+    <TextView
+        android:id="@+id/tv_Tim_B"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tv_Skor_Tim_B"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="16dp"
+        android:text="Nama Tim B"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@id/btn_Plus_Satu_B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_Skor_Tim_B"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="80sp"
+        app:layout_constraintBottom_toTopOf="@id/tv_Tim_B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_Reset_B"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset Perhitungan"
+        app:layout_constraintBottom_toTopOf="@id/tv_Skor_Tim_B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:onClick="reset"/>
+
+</android.support.constraint.ConstraintLayout>
