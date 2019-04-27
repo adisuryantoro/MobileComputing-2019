@@ -1,6 +1,6 @@
 # Mobile-Computing
 
-#IDE : Android Studio
+#  IDE : Android Studio
 
 #Modul Satu "Lifecycle Android"
  Referensi :
