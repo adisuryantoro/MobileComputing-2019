@@ -1,5 +1,7 @@
 # Mobile-Computing
 
+#IDE : Android Studio
+
 #Modul Satu "Lifecycle Android"
  Referensi :
  - https://developer.android.com/guide/components/activities/activity-lifecycle
