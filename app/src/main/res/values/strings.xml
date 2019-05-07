@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Modul Empat</string>
+    <string name="string_nomer_telphone">Masukkan Nomer Handphone</string>
+    <string name="string_open_nomer">Open Dial Phone</string>
+    <string name="string_share_text">Share Text</string>
+    <string name="string_masukkan_text">Masukkan Text</string>
+    <string name="string_open_location">Open Location</string>
+    <string name="string_buka_lokasi">Buka Lokasi</string>
+    <string name="string_open_browser">Open Browser</string>
+    <string name="string_masukkan_url">Masukkan Url</string>
+</resources>
