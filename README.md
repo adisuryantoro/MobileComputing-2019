@@ -28,8 +28,8 @@
   - https://www.tutorialspoint.com/android/android_shared_preferences.htm
   - https://abhiandroid.com/programming/shared-preference
   
-   #Modul Enam "Example SqLite Database"
-    Referensi :
-    - https://developer.android.com/reference/android/database/sqlite/SQLiteDatabase
-    - https://medium.com/easyread/konsep-dasar-database-sqlite-pada-android-e9445558f494
-    - https://www.okedroid.com/2016/03/cara-membuat-aplikasi-biodata-diri-sqlite-crud-android-studio.html
+ #Modul Enam "Example SqLite Database"
+  Referensi :
+  - https://developer.android.com/reference/android/database/sqlite/SQLiteDatabase
+  - https://medium.com/easyread/konsep-dasar-database-sqlite-pada-android-e9445558f494
+  - https://www.okedroid.com/2016/03/cara-membuat-aplikasi-biodata-diri-sqlite-crud-android-studio.html
